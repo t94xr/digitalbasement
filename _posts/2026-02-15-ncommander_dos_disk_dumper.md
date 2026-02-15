@@ -29,13 +29,16 @@ From my understanding, due to the way the program is written, compatibility with
 </div>
 **Note:** Video recorded using 86box on MS-DOS 5, speeds of imaging and disks may vary depending on your physical hardware and configuration.
 
+### Command Flags
+
+There are none, not in this early version of the program. ``diskdump /?`` will just run the program normally there is no help flag.
 
 ## Sequence Diagram
 <img src="/assets/media/dos_disk_dumper/sequence_diagram.svg" alt="" style="max-width: 90%;margin:0 auto;text-align:center;display:block;" />
 
 ## Links
 - Github - [NCommander DOS Disk Dumper][1]
-- Tech Tangent [Chaplet Halikan Manual Scanning](https://youtu.be/8ZOAIpvLo8Q) - Shelby used Disk Dumper to image the 40M HDD of this rare vintage laptop to a USB flash drive.
+- Tech Tangent [Chaplet Halikan Manual Scanning](https://youtu.be/8ZOAIpvLo8Q?t=8760) - Shelby used Disk Dumper to image the 40M HDD of this rare vintage laptop to a USB flash drive.
 
 [1]: https://github.com/NCommander/dos_disk_dumper
 [2]: https://www.youtube.com/c/NCommander
