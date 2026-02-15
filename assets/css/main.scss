@@ -188,6 +188,12 @@ div.footnotes li a.reversefootnote {
   font-size: small;
 }
 
-footer {
+footer{
+  display: block;
+  margin-top: 30px;
   font-size: small;
+}
+footer span.right {
+  float: right;
+  text-align: right;
 }

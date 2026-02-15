@@ -1,7 +1,7 @@
 title: Digital Basement
 email: me@cameronwalker.nz
 description: >- # this means to ignore newlines until "baseurl:"
-  This is <a href="//cameronwalker.nz">CameronW</a>'s digital basement, place to explore dos software, utilities.
+  This is <a href="//t94xr.github.io">CameronW</a>'s digital basement, place to explore dos software, utilities.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: t94xr
