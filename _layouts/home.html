@@ -1,0 +1,14 @@
+---
+layout: default
+---
+
+<div class="post-list">
+  {% for post in site.posts %}
+    <div>
+      <span style="width:110px; display:inline-block;">{{ post.date | date: "%b %d, %Y" }}</span><a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      	{% for tag in post.tags %}
+				  <span  class="tag {{ tag | slugify }}">{{ tag }}</span>
+				{% endfor %} 
+    </div>
+  {% endfor %}
+</div>

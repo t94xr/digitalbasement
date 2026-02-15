@@ -1,0 +1,13 @@
+---
+layout: default
+---
+<h1>{{ page.title }}{{ page.shortUrl }}</h1>
+<div class='separator'></div>
+{% capture toc_content %}{{ content | toc_only }}{% endcapture %}
+
+{% if page.toc == true and toc_content != "" %}
+  <div id="table-of-contents">
+    {{ toc_content }}
+  </div>
+{% endif %}
+{{ content | inject_anchors }}

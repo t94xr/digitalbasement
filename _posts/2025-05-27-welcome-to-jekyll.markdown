@@ -1,29 +1,142 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Markdown Showcase!"
 date:   2025-05-27 18:07:15 +1200
-categories: jekyll update
+tags: jekyll update
+toc: true
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
-Jekyll requires blog post files to be named according to the following format:
+This post demonstrates the most common markdown syntax.
 
-`YEAR-MONTH-DAY-title.MARKUP`
+## Headings
 
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+# Heading 1
+## Heading 2
+### Heading 3
+#### Heading 4
+##### Heading 5
+###### Heading 6
 
-Jekyll also offers powerful support for code snippets:
+Alternatively, for H1 and H2, an underline-style is available:
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+Heading 1
+=========
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+Heading 2
+---------
 
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+## Text Formatting
+
+*This text will be italic*
+_This will also be italic_
+
+**This text will be bold**
+__This will also be bold__
+
+_You **can** combine them_
+
+~~This text is strikethrough~~
+
+## Blockquotes
+
+> This is a blockquote.
+>
+> This is part of the same blockquote.
+
+> Blockquotes can also be nested...
+>> ...by using additional greater-than signs right next to each other...
+> > > ...or with spaces between arrows.
+
+## Lists
+
+### Unordered List
+
+*   Item 1
+*   Item 2
+    *   Item 2a
+    *   Item 2b
+
+### Ordered List
+
+1.  Item 1
+2.  Item 2
+3.  Item 3
+    1.  Item 3a
+    2.  Item 3b
+
+## Code
+
+This is `inline code`.
+
+```javascript
+// This is a javascript code block
+function greet(name) {
+  console.log("Hello, " + name + "!");
+}
+greet("World");
+```
+
+```python
+# This is a python code block
+def hello(name):
+    print(f"Hello, {name}!")
+
+hello("World")
+```
+
+## Horizontal Rule
+
+Three or more...
+
+---
+
+Hyphens
+
+***
+
+Asterisks
+
+___
+
+Underscores
+
+## Links
+
+[GitHub](http://github.com)
+
+[GitHub with title](http://github.com "GitHub Homepage")
+
+## Images
+
+![Alt text for image](https://via.placeholder.com/150 "Optional title")
+
+## Tables
+
+| Header 1 | Header 2 | Header 3 |
+| :--- | :------: | ---: |
+| Align Left | Align Center | Align Right |
+| Cell 1 | Cell 2 | Cell 3 |
+| Cell 4 | Cell 5 | Cell 6 |
+
+## Task Lists
+
+- [x] Write the press release
+- [ ] Update the website
+- [ ] Contact the media
+
+## Footnotes
+
+Here's a simple footnote,[^1] and here's a longer one.[^bignote]
+
+[^1]: This is the first footnote.
+[^bignote]: Here's one with multiple paragraphs and code.
+
+    Indent paragraphs to include them in the footnote.
+
+    `{ my code }`
+
+    Add as many paragraphs as you like.
+
+## Highlighting
+
+Use two equal signs to ==highlight text==.

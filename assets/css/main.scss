@@ -1,0 +1,188 @@
+---
+---
+
+html {
+  font-family: 'Fira Sans', sans-serif; /* Use Fira Sans for body text */
+  color: #333; /* Darker text color for better readability */
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 0.5em;
+  padding-bottom: 0.25em;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 1.75em;
+  margin-top: 1.25em;
+  margin-bottom: 0.5em;
+  padding-bottom: 0.25em;
+  font-weight: 600;
+}
+
+h3, h4, h5, h6 {
+  font-size: 1.5em;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+  font-weight: 600;
+}
+header h1 {
+  margin-bottom: 0px;
+}
+
+p {
+  margin-bottom: 1em;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+em {
+  font-style: italic;
+}
+strong {
+  font-weight: bold;
+}
+del {
+  text-decoration: line-through;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+ul li{
+  list-style-type: square;
+}
+ul li ul, ol li ul, ul li ol, ol li ol{ 
+  margin-top: 0;
+  margin-bottom: 0;
+}
+ul.task-list {
+  list-style-type: none;
+  padding-left: 15px;
+  line-height: 2;
+}
+ul.task-list li {
+  list-style-type: none;
+}
+
+blockquote {
+  border-left: 4px solid #e1e1e1;
+  padding-left: 1em;
+  margin-left: 0;
+  font-style: italic;
+  color: #666;
+}
+
+pre, code {
+  font-family: 'JetBrains Mono', monospace; /* Monospaced font for code blocks */
+}
+pre {
+  border: 1px solid #e1e1e1; /* Border for code blocks */
+  line-height: 1.75; /* Adjusted line height for readability */
+  padding: 0em; /* Consistent padding */
+  border-radius: 4px; /* Rounded corners for code blocks */
+  overflow-x: auto; /* Allow horizontal scrolling if needed */
+  letter-spacing: 0; /* No extra letter spacing */;
+}
+pre.highlight {
+  padding: 0.5em; /* Padding for code blocks */
+} 
+pre.highlight {
+  line-height: 1.75; /* Adjusted line height for readability */
+  padding: 0.5em; /* No extra padding for code inside pre */
+}
+code {
+  background-color: #fff; /* Light background for inline code */
+  padding: 3px 5px; /* Consistent padding for inline code */
+  letter-spacing: 0; /* No extra letter spacing */;
+}
+
+blockquote {
+
+}
+
+
+
+#table-of-contents {
+  float: right;
+  width: 250px;
+  max-width: 250px;
+  border: 1px solid #e1e1e1;
+  background: #fff;
+  border: 1px solid #e1e1e1;
+  padding: 1em;
+  border-radius: 4px;
+  max-height: 240px;
+  overflow-y: auto;
+  transition: max-height 0.25s ease-in-out;
+  
+  /* Visual cue that there is more content */
+  cursor: pointer;
+}
+#table-of-contents:hover {
+  /* 2. Hover State: Expanded */
+  /* We use a large fixed value because 'auto' won't animate */
+  max-height: 2000px; 
+}
+
+#table-of-contents h4 {
+  margin-top: 0;
+  margin-bottom: 0.5em;
+  border-bottom: 1px solid #e1e1e1;
+  padding-bottom: 0.5em;
+}
+
+#table-of-contents ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#table-of-contents li {
+  margin-bottom: 0.25em;
+  margin-left: 1em;
+}
+#table-of-contents ul#toc {
+
+}
+#table-of-contents ul#toc li {
+  list-style-type: none;
+}
+
+#table-of-contents ul#toc li.toc-entry {
+  list-style-type: "- ";
+}
+
+#table-of-contents a:hover {
+  text-decoration: underline;
+}
+mark {
+  background-color: #ff0; /* Highlight color for marked text */
+  padding: 0.2em; /* Padding for marked text */
+}
+div.footnotes {
+  background-color: #f9f9f9; /* Light background for footnotes */
+  padding: 1em; /* Padding for footnotes */
+  line-height: 1; /* Adjusted line height for footnotes */
+  font-size: 1em; /* Font size for footnotes */
+  color: #666; /* Lighter color for footnotes */
+  border: 1px solid #e1e1e1; /* Border for footnotes */ 
+  border-radius: 4px; /* Rounded corners for footnotes */
+}
+div.footnotes hr {
+  display: none; /* Hide default HR if any */
+}
+div.footnotes li a.reversefootnote {
+  font-weight: 600; /* Slightly bolder reverse footnote links */
+  color: darkgrey; /* Link color for reverse footnotes */
+  font-size: small;
+}
