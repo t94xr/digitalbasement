@@ -105,11 +105,12 @@ code {
   letter-spacing: 0; /* No extra letter spacing */;
 }
 
-blockquote {
-
+div.post-list span.tag {
+  float: right;
+  margin-left: 5px;
+  font-family: "Jetbrains Mono", monospace;
+  font-size: small;
 }
-
-
 
 #table-of-contents {
   float: right;
@@ -184,5 +185,9 @@ div.footnotes hr {
 div.footnotes li a.reversefootnote {
   font-weight: 600; /* Slightly bolder reverse footnote links */
   color: darkgrey; /* Link color for reverse footnotes */
+  font-size: small;
+}
+
+footer {
   font-size: small;
 }
